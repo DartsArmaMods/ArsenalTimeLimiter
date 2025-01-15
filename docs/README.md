@@ -23,17 +23,6 @@
     <b>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases/latest">CBA A3</a></b>
 </p>
 
-# Initial Project Setup!
-Delete this section after the project has been initially set up:
-1. Find and replace all instances of `Arsenal Time Limiter` with the mod's name.
-2. Find and replace all instances of `ArsenalTimeLimiter` with the mod's name *and no spaces*.
-   - This should be the name of the repository on GitHub.
-3. Find and replace all instances of `atl` with the mod's prefix.
-   - This should be all lowercase.
-4. Find and replace all instances of `ATL` with the mod's acronym.
-   - This should be all uppercase.
-5. After the initial Steam upload, find and replace all instances of `3408041319` with the mod's Steam Workshop id.
-
 **Arsenal Time Limiter** is an edit of [R. Gonzalez's mod of the same name](https://steamcommunity.com/sharedfiles/filedetails/?id=3407083413), but runs entirely unscheduled and uses CBA events for networking. I had offered to add these fixes to the original mod, to which the original author took offense to. So I took it upon myself to fix and improve their mod.
 
 The project is entirely **open-source** and any contributions are welcome.
