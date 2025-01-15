@@ -8,8 +8,8 @@
     <a href="https://github.com/DartsArmaMods/ArsenalTimeLimiter/issues">
         <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/ArsenalTimeLimiter.svg?style=flat-square&label=Issues" alt="Arsenal Time Limiter Issues">
     </a>
-    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=MOD_ID">
-        <img src="https://img.shields.io/steam/downloads/MOD_ID.svg?style=flat-square&label=Downloads" alt="Arsenal Time Limiter Downloads">
+    <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3408041319">
+        <img src="https://img.shields.io/steam/downloads/3408041319.svg?style=flat-square&label=Downloads" alt="Arsenal Time Limiter Downloads">
     </a>
     <a href="https://github.com/DartsArmaMods/ArsenalTimeLimiter/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-APL ND-red?style=flat-square" alt="Arsenal Time Limiter License">
@@ -32,9 +32,9 @@ Delete this section after the project has been initially set up:
    - This should be all lowercase.
 4. Find and replace all instances of `ATL` with the mod's acronym.
    - This should be all uppercase.
-5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
+5. After the initial Steam upload, find and replace all instances of `3408041319` with the mod's Steam Workshop id.
 
-**Arsenal Time Limiter** is an edit of [R. Gonzalez's mod of the same name](https://steamcommunity.com/sharedfiles/filedetails/?id=3407083413), but runs entirely unscheduled and uses CBA events for networking. I had offered to add these fixes to the original mod, to which the original author took offense to.
+**Arsenal Time Limiter** is an edit of [R. Gonzalez's mod of the same name](https://steamcommunity.com/sharedfiles/filedetails/?id=3407083413), but runs entirely unscheduled and uses CBA events for networking. I had offered to add these fixes to the original mod, to which the original author took offense to. So I took it upon myself to fix and improve their mod.
 
 The project is entirely **open-source** and any contributions are welcome.
 
@@ -44,10 +44,17 @@ The project is entirely **open-source** and any contributions are welcome.
   - The time can be customized via a CBA setting, or modified on the arsenal directly via ACE Actions (Admin Only).
   - Individual units can bypass the timer by enabling the "Ignore Timer" option in their properties.
   - A whitelist setting is also included where a player's Steam ID can be added to always allow them to bypass the timer.
+- Arsenal Locks
+  - All arsenals can also be locked by an admin, preventing any non-whitelisted player from opening an arsenal at all.
+  - This is only natively available through ACE self interactions, but can be done by a script by running:
+```sqf
+// This affects all machines! Only run once.
+_isLocked call atl_timeLimiter_fnc_lockArsenals; // true to lock, false to unlock
+```
 
 ## Contributing
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
 
 ## License
 Per the original mod:
-> You can do whatever you want with this mod... pack it, squish it, burn it... Just remember to mention this original version if reuploading anywhere. Be happy.
+> You can do whatever you want with this mod... pack it, squish it, burn it... Just remember to mention this original version if reuploading anywhere. Be happy
