@@ -3,7 +3,7 @@
 <h1 align="center">Arsenal Time Limiter</h1>
 <p align="center">
     <a href="https://github.com/DartsArmaMods/ArsenalTimeLimiter/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square" alt="Arsenal Time Limiter Version">
+        <img src="https://img.shields.io/badge/Version-1.0.1-blue?style=flat-square" alt="Arsenal Time Limiter Version">
     </a>
     <a href="https://github.com/DartsArmaMods/ArsenalTimeLimiter/issues">
         <img src="https://img.shields.io/github/issues-raw/DartsArmaMods/ArsenalTimeLimiter.svg?style=flat-square&label=Issues" alt="Arsenal Time Limiter Issues">
