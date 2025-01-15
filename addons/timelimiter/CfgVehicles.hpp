@@ -10,13 +10,13 @@ class CfgVehicles {
                 class GVAR(lockArsenals) {
                     displayName = CSTRING(lockArsenals);
                     condition = QUOTE(!GVAR(lockArsenals));
-                    statement = QUOTE([ARR_2(_player,true)] call FUNC(lockArsenals));
+                    statement = QUOTE([ARR_2(true,_player)] call FUNC(lockArsenals));
                 };
 
                 class GVAR(unlockArsenals) {
                     displayName = CSTRING(unlockArsenals);
                     condition = QUOTE(GVAR(lockArsenals));
-                    statement = QUOTE([ARR_2(_player,false)] call FUNC(lockArsenals));
+                    statement = QUOTE([ARR_2(false,_player)] call FUNC(lockArsenals));
                 };
 
                 class GVAR(resetTimers) {

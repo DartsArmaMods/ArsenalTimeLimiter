@@ -4,25 +4,23 @@
  * Locks all arsenals for all clients.
  *
  * Arguments:
- * 0: Player to run <OBJECT>
- * 1: True to lock arsenals, false to unlock (optional, default: false) <BOOL>
+ * 0: True to lock arsenals, false to unlock (optional, default: false) <BOOL>
+ * 1: Player responsible (optional, default: null) <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * [player, true] call atl_timeLimiter_fnc_lockArsenals;
+ * [true, player] call atl_timeLimiter_fnc_lockArsenals;
  *
  * Public: Yes
  */
 
 params [
-    ["_player", objNull, [objNull]],
-    ["_locked", false, [false]]
+    ["_locked", false, [false]],
+    ["_player", objNull, [objNull]]
 ];
-TRACE_2("fnc_lockArsenals",_player,_locked);
-
-if (isNull _player) exitWith {};
+TRACE_2("fnc_lockArsenals",_locked,_player);
 
 missionNamespace setVariable [QGVAR(lockArsenals), _locked, true];
-[QGVAR(arsenalLockChanged), [_player, _locked]] call CBA_fnc_globalEvent;
+[QGVAR(arsenalLockChanged), [_locked, _player]] call CBA_fnc_globalEvent;

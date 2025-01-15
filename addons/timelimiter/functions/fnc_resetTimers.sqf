@@ -4,7 +4,7 @@
  * Resets the time limit for all players.
  *
  * Arguments:
- * 0: Player to run <OBJECT>
+ * 0: Player responsible <OBJECT>
  *
  * Return Value:
  * None
@@ -19,7 +19,5 @@ params [
     ["_player", objNull, [objNull]]
 ];
 TRACE_1("fnc_resetTimer",_player);
-
-if (isNull _player) exitWith {};
 
 [QGVAR(resetTimer), [_player]] call CBA_fnc_globalEvent;
