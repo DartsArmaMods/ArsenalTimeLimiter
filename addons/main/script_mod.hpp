@@ -1,10 +1,11 @@
 #define MAINPREFIX z
-#define PREFIX MOD_PREFIX
-#define MOD_NAME MOD_TITLE
+#define PREFIX atl
+#define MOD_NAME Arsenal Time Limiter
 #define AUTHOR "DartRuffian"
 
 #define REQUIRED_VERSION 2.18
 #define REQUIRED_CBA_VERSION {3,18,1}
+#define REQUIRED_ACE_VERSION {3,18,1}
 
 #include "script_version.hpp"
 

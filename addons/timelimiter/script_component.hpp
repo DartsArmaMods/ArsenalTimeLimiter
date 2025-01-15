@@ -1,5 +1,5 @@
-#define COMPONENT addonName
-#define COMPONENT_BEAUTIFIED Addon Name
+#define COMPONENT timelimiter
+#define COMPONENT_BEAUTIFIED Time Limiter
 #include "\z\atl\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL

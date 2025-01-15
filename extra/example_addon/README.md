@@ -1,4 +1,4 @@
-MOD_PREFIX_addonName
+atl_addonName
 ===================
 
 Description for this addon

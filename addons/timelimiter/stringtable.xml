@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ATL">
+    <Package name="Time Limiter">
+        <Key ID="STR_atl_timelimiter_displayName">
+            <English>Time Limiter</English>
+        </Key>
+    </Package>
+</Project>

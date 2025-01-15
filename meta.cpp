@@ -1,4 +1,4 @@
 protocol = 1;
 publishedid = MOD_ID;
-name = "MOD_TITLE";
+name = "Arsenal Time Limiter";
 timestamp = 5250140732737923549;

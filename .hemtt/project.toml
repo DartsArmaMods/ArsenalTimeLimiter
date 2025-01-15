@@ -1,6 +1,6 @@
-name = "MOD_TITLE"
+name = "Arsenal Time Limiter"
 author = "DartRuffian"
-prefix = "MOD_PREFIX"
+prefix = "atl"
 mainprefix = "z"
 
 [version]
@@ -11,8 +11,8 @@ git_hash = 0
 include = [
     "mod.cpp",
     "meta.cpp",
-    "logo_MOD_PREFIX.png",
-    "logo_MOD_PREFIX_ca.paa",
+    "logo_atl.png",
+    "logo_atl_ca.paa",
     "LICENSE.md",
     "README.md",
 ]
