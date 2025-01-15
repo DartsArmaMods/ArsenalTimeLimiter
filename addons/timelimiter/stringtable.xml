@@ -4,9 +4,6 @@
         <Key ID="STR_atl_timelimiter_arsenalTimeout">
             <English>You have run out of time, no more dress-up.</English>
         </Key>
-        <Key ID="STR_atl_timelimiter_timerMessage">
-            <English>Arsenal Timer</English>
-        </Key>
         <Key ID="STR_atl_timelimiter_closeDelay_name">
             <English>Close Delay</English>
         </Key>
@@ -25,6 +22,12 @@
         <Key ID="STR_atl_timelimiter_enabled_tooltip">
             <English>If enabled, players will have a timer start when opening the arsenal. If the timer reaches 0, the arsenal will close.</English>
         </Key>
+        <Key ID="STR_atl_timelimiter_ignoreTimer_name">
+            <English>Ignore Arsenal Timer</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_ignoreTimer_tooltip">
+            <English>If set, this unit will not be timed out from any arsenal.</English>
+        </Key>
         <Key ID="STR_atl_timelimiter_lockArsenals">
             <English>Lock all arsenals</English>
         </Key>
@@ -39,6 +42,9 @@
         </Key>
         <Key ID="STR_atl_timelimiter_timeLimit_tooltip">
             <English>Time limit for using an arsenal.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_timerMessage">
+            <English>Arsenal Timer</English>
         </Key>
         <Key ID="STR_atl_timelimiter_unlockArsenals">
             <English>Unlock all arsenals</English>
