@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="ATL">
     <Package name="Time Limiter">
+        <Key ID="STR_atl_timelimiter_arsenalTimeout">
+            <English>You have run out of time, no more dress-up.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_timerMessage">
+            <English>Arsenal Timer</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_closeDelay_name">
+            <English>Close Delay</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_closeDelay_tooltip">
+            <English>How long to wait after the timer reaches 0 to close the arsenal.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_confirm">
+            <English>Confirm?</English>
+        </Key>
         <Key ID="STR_atl_timelimiter_displayName">
             <English>Time Limiter</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_enabled_name">
+            <English>Enabled</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_enabled_tooltip">
+            <English>If enabled, players will have a timer start when opening the arsenal. If the timer reaches 0, the arsenal will close.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_lockArsenals">
+            <English>Lock all arsenals</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_lockedMessage">
+            <English>All arsenals have been locked by an admin.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_resetTimers">
+            <English>Reset timer for all players</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_timeLimit_name">
+            <English>Time Limit</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_timeLimit_tooltip">
+            <English>Time limit for using an arsenal.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_unlockArsenals">
+            <English>Unlock all arsenals</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_unlockedMessage">
+            <English>All arsenals have been unlocked by an admin.</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_whitelist_name">
+            <English>Timer Whitelist</English>
+        </Key>
+        <Key ID="STR_atl_timelimiter_whitelist_tooltip">
+            <English>A list of Steam ids for players with unlimited time. Should be formatted as: "['steamid1', 'steamid2']" and so on.</English>
         </Key>
     </Package>
 </Project>
