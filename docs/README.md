@@ -34,15 +34,20 @@ Delete this section after the project has been initially set up:
    - This should be all uppercase.
 5. After the initial Steam upload, find and replace all instances of `MOD_ID` with the mod's Steam Workshop id.
 
-**Arsenal Time Limiter** (ATL) aims to...
+**Arsenal Time Limiter** is an edit of [R. Gonzalez's mod of the same name](https://steamcommunity.com/sharedfiles/filedetails/?id=3407083413), but runs entirely unscheduled and uses CBA events for networking. I had offered to add these fixes to the original mod, to which the original author took offense to.
 
 The project is entirely **open-source** and any contributions are welcome.
 
 ## Core Features
-- Feature
+- Time Limiter
+  - When opening an arsenal (vanilla or ACE) in multiplayer, a timer will be displayed on the screen. When the timer reaches 0, the arsenal will be automatically closed.
+  - The time can be customized via a CBA setting, or modified on the arsenal directly via ACE Actions (Admin Only).
+  - Individual units can bypass the timer by enabling the "Ignore Timer" option in their properties.
+  - A whitelist setting is also included where a player's Steam ID can be added to always allow them to bypass the timer.
 
 ## Contributing
 For new contributers, see the [Contributing Setup & Guidelines](./.github/CONTRIBUTING.md).
 
 ## License
-Arsenal Time Limiter is licensed under [APL-ND](./LICENSE.md).
+Per the original mod:
+> You can do whatever you want with this mod... pack it, squish it, burn it... Just remember to mention this original version if reuploading anywhere. Be happy.

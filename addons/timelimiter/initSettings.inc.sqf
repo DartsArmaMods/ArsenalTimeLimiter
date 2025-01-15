@@ -19,5 +19,5 @@
 [
     QGVAR(whitelist), "EDITBOX",
     [LSTRING(whitelist_name), LSTRING(whitelist_tooltip)],
-    _category, "", true
+    _category, "[]", true
 ] call CBA_fnc_addSetting;
